@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+nextjs 路由例子
+单个动态路由的使用 pages/events/[eventId].js
+多个多层嵌套路由参数的使用 pages/events/[...slug].js
+父组件子组件 components/events/event-list.js event-item.js
+
 ## Getting Started
 
 First, run the development server:
