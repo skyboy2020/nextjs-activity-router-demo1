@@ -3,7 +3,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 nextjs 路由例子
 单个动态路由的使用 pages/events/[eventId].js
 多个多层嵌套路由参数的使用 pages/events/[...slug].js
+
 父组件子组件 components/events/event-list.js event-item.js
+CSS 模块化 components/events/event-item.module.css
+
+hreoicons.com svg 和 jsx 图标网站
+复制 hreoicons.com 上面的图标 jsx 代码可以直接作为组件使用 components/icons
+图标 jsx 组件使用例子 components/events/event-item.js
+
+useRef 使用 子组件向父组件传递值，传递方法 components/events/events-search.js
+eventId ...slug 单层多层嵌套动态路由 查找组件 pages/events pages/event.index
 
 ## Getting Started
 
